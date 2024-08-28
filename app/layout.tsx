@@ -16,7 +16,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className}`}>{children}</body>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
+      <body
+        className={`${inter.className} bg-zinc-900 flex justify-center items-center flex-col gap-16`}
+      >
+        <div className=" text-zinc-200 font-mono text-5xl text-center underline">
+          Who did you offend?
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
