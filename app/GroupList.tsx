@@ -9,6 +9,7 @@ export function GroupList({
 }) {
   return (
     <div className="w-full h-full p-4">
+      You text is going to offend(Click to expand):
       {groups.map((item) => {
         return (
           <ListItem key={item.group} group={item.group} reason={item.reason} />
