@@ -2,7 +2,7 @@
 Everything we say or do is going to offend someone. Take a look at who did your message offend. 
 Built with NextJS. Uses Llama 3.1 70B model from together.ai
 
-Link: 
+Link: https://who-did-you-offend.vercel.app/
 
 ## Running Locally
 
